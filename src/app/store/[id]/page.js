@@ -1,6 +1,6 @@
 
 
-const ItemDeailsPage = ({params : {id}}) => {
+const ItemDetailsPage = ({params : {id}}) => {
 
     console.log(id)
 
@@ -9,4 +9,4 @@ const ItemDeailsPage = ({params : {id}}) => {
   )
 }
 
-export default ItemDeailsPage
+export default ItemDetailsPage;
