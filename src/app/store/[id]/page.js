@@ -5,7 +5,7 @@ const ItemDetailsPage = ({params : {id}}) => {
     console.log(id)
 
   return (
-    <div>Item Details Page</div>
+    <div  >Item Details Page</div>
   )
 }
 

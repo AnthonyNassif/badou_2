@@ -7,19 +7,21 @@ import { StoreContext } from '@/app/context';
 import { 
     HomeIcon, 
     UserGroupIcon, 
-    BookOpenIcon, 
-    CubeTransparentIcon, RectangleStackIcon, CogIcon, TruckIcon,Squares2X2Icon, ShoppingCartIcon } from "@heroicons/react/24/solid";
+    MagnifyingGlassIcon, 
+    CubeTransparentIcon, RectangleStackIcon, CogIcon, TruckIcon,UserCircleIcon, ShoppingCartIcon, BuildingStorefrontIcon } from "@heroicons/react/24/solid";
 
 const links = [
     {name: 'Home', href: '/', icon: HomeIcon},
-    {name: 'Store', href: '/store', icon: BookOpenIcon},
+    {name: 'Store', href: '/store', icon: BuildingStorefrontIcon},
     {name: 'Sell ', href: '/store/sell', icon: RectangleStackIcon},
     {name: 'Cart', href: '/store/cart', icon: ShoppingCartIcon},
     {name: 'Track Order', href: '/store/track-order', icon: TruckIcon},
-    {name: 'Community', href: '/store/community', icon: UserGroupIcon},
-    {name: 'Settings', href: '/store/settings', icon: CogIcon},
-    {name: 'About', href: '/store/about', icon: Squares2X2Icon},
-    {name: 'Admin', href: '/store/admin', icon: CubeTransparentIcon},
+    {name: 'Auction', href: '/store/auction', icon: UserGroupIcon},
+    {name: 'Explore', href: '/store/explore', icon:MagnifyingGlassIcon},
+    {name: 'Settings', href: '/store/settings',icon: CogIcon},  
+    {name: 'User', href: '/store/user', icon: UserCircleIcon}, 
+    {name: 'About', href: '/store/about', icon: CubeTransparentIcon},
+   
   ]
   
   
