@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import AddToCart from "./AddtoCart";
 import {  CurrencyDollarIcon, ArchiveBoxIcon, ArchiveBoxXMarkIcon } from "@heroicons/react/24/solid";
 
 const ItemCard = ({item})=> {
@@ -7,7 +8,7 @@ const ItemCard = ({item})=> {
     return(
 
     <Link href={`/store/${item.id}`} >
-        <div className="flex flex-col items-center rounded-xl bg-amber-700 p-2 m-2 shadow-sm " >
+    <div className="flex flex-col items-center rounded-xl bg-amber-700 p-2 m-2 shadow-sm " >
         <div className="flex p-2">
           <h3 className="ml-2 text-sm text-amber-100 font-medium">{item.title}</h3>
         </div>
@@ -45,12 +46,10 @@ const ItemCard = ({item})=> {
            
           </div>       
 
-        </div>
-
-             
-            
-            
-        </div>
+                <AddToCart item = {item} />
+                
+         </div>
+    </div>
 
     </Link> 
 
