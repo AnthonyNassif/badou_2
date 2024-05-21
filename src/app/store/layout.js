@@ -9,7 +9,7 @@ export default function ThriftStoreLayout ({children}){
 return(
     <div className="flex xs:flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row min-h-screen">
 
-        <div className="flex flex-wrap p-2 justify-right w-full">
+        <div className="flex flex-wrap p-2 justify-center w-full">
             <Sidebar/>
             {children}
         </div>

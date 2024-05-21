@@ -1,17 +1,16 @@
-import backgroundImage from '../../../public/home/GeneralBackground.png';
-import Image from 'next/image';
 
+
+import { getAllitems } from '../lib/fake.data';
+import ItemList from "../ui/items/ItemList";
 
 const ItemListPage = () => {
+
+    const items = getAllitems();
+    
+
   return (
     
-    <div>
-        
-
-        <p>Item List Page</p>
-
-        
-        </div>
+        <ItemList items={items}/>
   )
 }
 
