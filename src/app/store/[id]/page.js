@@ -9,7 +9,7 @@ const ItemDetailsPage = ({params : {id}}) => {
     
      
       
-      <div>
+      <div> 
        
         Item Details Page
       </div>
