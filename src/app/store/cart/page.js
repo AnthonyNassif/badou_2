@@ -1,4 +1,4 @@
-//import CartItems from "@/app/ui/cart/CartItems";
+import CartItems from "@/app/ui/cart/CartItems";
 import Payment from "@/app/ui/cart/Payment";
 import OrderDetails from "@/app/ui/cart/OrderDetails";
 
@@ -12,6 +12,7 @@ const CartPage = () => {
             
             <div className="flex flex-wrap xs:flex-col sm:flex-col md:flex-col lg:flex-row justify-center items-center pt-10 ">
             
+            <CartItems />
             <OrderDetails />
             <Payment />
             

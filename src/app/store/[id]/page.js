@@ -1,11 +1,19 @@
 
+import ItemDetails from "@/app/ui/items/ItemDetails";
 
 const ItemDetailsPage = ({params : {id}}) => {
 
     
 
   return (
-    <div  >Item Details Page</div>
+    
+     
+      
+      <div>
+       
+        Item Details Page
+      </div>
+      
   )
 }
 
