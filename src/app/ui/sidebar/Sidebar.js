@@ -5,7 +5,7 @@ import Logo from "./Logo";
 
 const Sidebar = () => {
   return (
-    <div>
+    <div className="justify-center " > 
 
         <Link href="/store"
             className="bg-amber-900 mb-4 flex h-20 items-end justify-start rounded-md p-4"
